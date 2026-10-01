@@ -1,0 +1,30 @@
+{
+  "name": "gestion-mantenimiento-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "latest",
+    "dotenv": "^18.0.4",
+    "express": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "^9.0.3",
+    "mssql": "latest",
+    "multer": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mssql": "latest",
+    "@types/multer": "^2.3.0",
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
